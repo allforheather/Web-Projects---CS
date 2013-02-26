@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+	/*PAGE*/
+		body {
+			width:1024px;
+			height:768px;
+			}
+	/*BACKGROUND IMAGE*/
+		html { 
+  			background: url(http://farm9.staticflickr.com/8373/8510048159_c6b63b87fe_b.jpg) no-repeat center center fixed; 
+  			-webkit-background-size: cover;
+  			-moz-background-size: cover;
+  			-o-background-size: cover;
+  			background-size: cover;
+			}
+	/*GLASS GREY*/
+		.glassgrey {
+			left:10%;
+			position:absolute;
+			width:1024px;
+			height:768px;
+			background-color:rgba(0,0,0,0.2);
+			border:5px solid white;
+			opacity:0.5;
+			overflow:hidden;
+			}
+	/*PANE PROPERTIES*/
+		.pane {
+			position:absolute;
+			opacity:0.8;
+			}
+	/*FRAME*/
+		.frame {
+			background-color:rgba(0,0,0,0);
+			border:3px solid black;
+			position:absolute;
+			}
+	/*COLOR*/
+		.red {
+			background-color:#fd0700;
+			}
+		.orange {
+			background-color:#ff7600;
+			}
+		.green {
+			background-color:#008209;
+			}
+		.purple {
+			background-color:#ce0071;
+			}
+		.blue {
+			background-color:#01939a;
+			}
+		.bluelight1 {
+			background-color:#5ec4cd;
+			}
+		.yellow {
+			background-color:#fff100;
+			}
+	/*SIZE AND POSITION*/
+		#red1 {
+			bottom:200px;
+			right:10px;
+			width:1000px;
+			height:50px;
+			border:3px solid black;
+			}
+		#orange1 {
+			bottom:200px;
+			right:10px;
+			width:900px;
+			height:100px;
+			border:3px solid black;
+			}
+		#green1 {
+			bottom:150px;
+			right:10px;
+			width:400px;
+			height:400px;
+			border:3px solid black;
+			}
+		#purple1 {
+			bottom:50px;
+			right:360px;
+			width:50px;
+			height:700px;
+			border:3px solid black;
+			}
+		#red2 {
+			width: 500px;
+			height: 500px;
+			-moz-border-radius: 250px;
+			-webkit-border-radius: 250px;
+			border-radius: 250px;
+			right:10px;	
+			bottom:200px;
+			border:3px solid black;
+			}
+		#blue1 {
+			bottom:10px;
+			right:10px;
+			width:290px;
+			height:290px;
+			border:3px solid black;
+			}
+		#blue2 {
+			bottom:200px;
+			right:302px;
+			width:550px;
+			height:350px;
+			border:3px solid black;
+			}
+		#yellow1 {
+			width: 700px;
+			height: 700px;
+			-moz-border-radius: 350px;
+			-webkit-border-radius: 350px;
+			border-radius: 350px;
+			right:731px;	
+			bottom:471px;
+			border:3px solid black;
+			}
+		#green2 {
+			width:100px;
+			height:300px;
+			left:166px;
+			bottom:50px;
+			border:3px solid black;
+			}
+		/*SIZE AND POSITION FRAME*/
+			#red1frame {
+			bottom:200px;
+			right:10px;
+			width:1000px;
+			height:50px;
+			}
+		#orange1frame {
+			bottom:200px;
+			right:10px;
+			width:900px;
+			height:100px;
+			}
+		#green1frame {
+			bottom:150px;
+			right:10px;
+			width:400px;
+			height:400px;
+			}
+		#purple1frame {
+			bottom:50px;
+			right:360px;
+			width:50px;
+			height:700px;
+			}
+		#red2frame {
+			width: 500px;
+			height: 500px;
+			-moz-border-radius: 250px;
+			-webkit-border-radius: 250px;
+			border-radius: 250px;
+			right:10px;	
+			bottom:200px;
+			}
+		#blue1frame {
+			bottom:10px;
+			right:10px;
+			width:290px;
+			height:290px;
+			}
+		#blue2frame {
+			bottom:200px;
+			right:302px;
+			width:550px;
+			height:350px;
+			}
+		#yellow1frame {
+			width: 700px;
+			height: 700px;
+			-moz-border-radius: 350px;
+			-webkit-border-radius: 350px;
+			border-radius: 350px;
+			right:731px;	
+			bottom:471px;
+			}
+		#frame1 {
+			top:12px;
+			right:360px;
+			width:375px;
+			height:0px;
+			}
+		#green2frame {
+			width:100px;
+			height:300px;
+			left:166px;
+			bottom:50px;
+			}
+		#frame2 {
+			bottom:50px;
+			left:0px;
+			height:0px;
+			width:266px;
+			}
+	</style>
+</head>
+
+<body>
+
+	<div class="glassgrey">
+		<!--COLOR PANE-->
+		<div id="blue2" class="bluelight1 pane"></div>
+		<div id="red1" class="red pane"></div>
+		<div id="orange1" class="orange pane"></div>
+		<div id="green1" class="green pane"></div>
+		<div id="purple1" class="purple pane"></div>
+		<div id="red2" class="red pane"></div>
+		<div id="blue1" class="blue pane"></div>
+		<div id="yellow1" class="yellow pane"></div>
+		<div id="green2" class="green pane"></div>
+		<!--BLACK FRAME-->
+		<div id="blue2frame" class="frame"></div>
+		<div id="red1frame" class="frame"></div>
+		<div id="orange1frame" class="frame"></div>
+		<div id="green1frame" class="frame"></div>
+		<div id="purple1frame" class="frame"></div>
+		<div id="red2frame" class="frame"></div>
+		<div id="blue1frame" class="frame"></div>
+		<div id="yellow1frame" class="frame"></div>
+		<div id="green2frame" class="frame"></div>
+		<div id="frame1" class="frame"></div>
+		<div id="frame2" class="frame"></div>
+		
+		
+	</div>
+	
+
+</body>
+</html>
+
