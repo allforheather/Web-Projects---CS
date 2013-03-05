@@ -1,0 +1,103 @@
+
+/*BODY PROPERTIES*/
+body {
+	background:lightgray;
+	margin:0;
+	}
+/*WRAPPER PROPERTIES*/
+#wrapper {
+		width:1024px;
+		height:768px;
+		overflow:hidden;
+		background:orange;
+		position:relative;
+		margin:auto;
+		top:10px;
+	}
+/*PAGE PROPERTIES*/
+
+#header {
+		height:50px;
+		width:100%;
+		background:yellow;
+		position:relative;
+		overflow:hidden;
+}
+
+#header h1 {
+		font-family:tekton pro;
+		}
+
+#nav {
+		width:200px;
+		height:668px;
+		background:violet;
+		float:left;
+
+}
+
+#nav li {
+		list-style:none;
+}
+
+#nav a {
+		color:white;
+		font-size:18px;
+		font-family:tekton pro;
+		text-decoration:none;
+}
+
+#nav a:hover {
+		font-weight:bold;
+		font-size:35px;
+		color:black;
+		text-decoration:underline;
+}	
+
+
+#content {
+		height:668px;
+		background:red;
+		width:824px;
+		float:right;
+		text-align: center;
+		
+}
+
+#content img {
+		margin:10px;
+}
+
+#content .tab {
+		width:400px;
+		height:300px;
+		position:absolute;
+		left:420px;
+		margin-top: 10px;
+		-webkit-transition:all 1s;
+		-moz-transition:all 1s;
+		transition:all 1s;
+}
+
+#content li { display:inline; margin:20px; }
+
+#content #tab1 { background:green; opacity:0; }
+#content #tab1:target { background:green; opacity:1; }
+
+#content #tab2 { background:blue; opacity:0; }
+#content #tab2:target { background:blue; opacity:1; }
+
+#content #tab3 { background:grey; opacity:0; }
+#content #tab3:target { background:grey; opacity:1; }
+
+#content ul { list-style:none; }
+
+#content a { color:white; font-family:tekton pro; text-decoration:none; }
+
+
+#footer {
+		height:50px;
+		width:100%;
+		background:green;
+		clear:both;
+}
