@@ -17,7 +17,7 @@
 		width:900px;
 		height:720px;
 		overflow:hidden;
-		background:#717171;
+		background:white;
 		float:left;
 		position:absolute;
 		
@@ -28,28 +28,45 @@ nav {
 		height:768px;
 		width:124px;
 		float:right;
-		background:#aaaaaa;
+		background:white;
 	}
+	
+nav ul {
+	  	position:absolute;
+	  	top:300px;
+	  	left:860px;
+	  	list-style:none;
+	  	margin:0;
+	  	position:absolute;
+	  	}
+	  	
+nav a {
+		text-decoration:none;
+		font-family:ANDALE MONO;
+		font-size:16px;
+		color:grey;
+		list-style-position:left;
+		}
 	
 /*FOOTER PROPERTIES*/
 #footer {
 		height:48px;
 		width:900px;
 		overflow:hidden;
-		background:#3e4d71;
+		background:white;
 		position:absolute;
 		left:0;
 		bottom:0;
 	}
 	
 #footer a {
-		font-family:existence;
-		font-size:38px;
+		font-family:ANDALE MONO;
+		font-size:16px;
 		position:absolute;
 		top:0;
 		left:10px;
 		text-decoration:none;
-		color:black;
+		color:grey;
 		
 		}
 
@@ -57,17 +74,23 @@ nav {
 #scrollingPage {
 		height:100%;
 		width:75%;
-		background:#8b2419;
+		background:white;
 		right:0;
 		position:absolute;
 		z-index:1;
+	
 		}
+#scrollingPage iframe {
+		height:100%;
+		width:100%;
+	
+}
 		
 /*RELATEDCONTENT PROPERTIES*/
 #relatedContent {
 		height:100%;
 		width:25%;
-		background:#e9d1cf;
+		background:grey;
 		-webkit-transition: .2s ease-in;
 		-moz-transition: .2s ease-in;
    		-ms-transition: .2s ease-in;
@@ -80,7 +103,7 @@ nav {
 #relatedContent:hover {
 		height:100%;
 		width:75%;
-		background:#e9d1cf;
+		background:lightgrey;
 		}
 		
 		
