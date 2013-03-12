@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		
+		<link href="styles/styles.css" rel="stylesheet">
+		 
+		<script type="text/javascript">
+			function loadPage(pageNumber) {
+				
+				//alert("loading page" + pageNumber);
+			
+				var myIframe = document.getElementById("myIframe");
+				
+				//alert(myIframe);
+				
+				myIframe.src = "iframe-pages/page" + pageNumber + ".html" ;
+			}
+			
+		</script> 
+	</head>
+	
+	<body>
+	
+	<div id="wrapper">
+		
+		<div id="header">
+			<h1>Home</h1>
+		</div>
+		
+		<div id="nav">
+		
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			
+			<br>
+				<ul>
+					<li><a href="#" onclick="loadPage(1)">page 1</a></li>
+					<li><a href="#" onclick="loadPage(2)">page 2</a></li>
+					<li><a href="#" onclick="loadPage(3)">page 3</a></li>
+				</ul>
+				
+				
+		</div>
+		
+		<div id="content">
+		
+		
+		<iframe id="myIframe" src="iframe-pages/page1.html"></iframe>
+		
+		</div>
+		
+		<div id="footer"></div>
+		
+	</div>
+	
+	</body>
+</html>

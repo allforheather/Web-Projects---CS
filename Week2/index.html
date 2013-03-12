@@ -2,17 +2,31 @@
 <html>
 
 	<head>
-		<title>Home</title>
+		<title>Chen Sun</title>
 		<link href="styles/styles.css" rel="stylesheet">
+		<script src="scripts/nav.js"></script>
 	</head>
 
 	<body>
 		<div id="wrapper">
-			<div class="box" id="box1"></div>
-			<div class="box" id="box2"></div>
-			<div class="box" id="box3"></div>
-			<div class="box" id="box4"></div>
-			<div class="box" id="box5"></div>
+			<nav>
+				<ul>
+					<li><a onclick="loadPage(Home)">Home</a></li>
+					<li><a onclick="loadPage(News)">News</a></li>
+					<li><a onclick="loadPage(Design)">Design</a></li>
+					<li><a onclick="loadPage(Photography)">Photography</a></li>
+					<li><a onclick="loadPage(Blog)">Blog</a></li>
+					<li><a onclick="loadPage(Contact)">Contact</a></li>
+
+				</ul>
+			</nav>
+			<div id="wrapper2">
+				<div id="relatedContent"></div>
+				<div id="scrollingPage"></div>
+			</div>
+			<div id="footer">
+				<p><a href="index.html">C-Design</a></p>
+			</div>
 			
 		</div>
 	</body>

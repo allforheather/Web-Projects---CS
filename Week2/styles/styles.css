@@ -1,6 +1,6 @@
 /*BODY PROPERTIES*/
 #body {
-		background:lightgrey;
+		background:white;
 	}
 
 /*WRAPPER PROPERTIES*/
@@ -13,3 +13,76 @@
 		margin:auto;
 		top:10px;
 	}
+#wrapper2 {
+		width:900px;
+		height:720px;
+		overflow:hidden;
+		background:#717171;
+		float:left;
+		position:absolute;
+		
+	}
+	
+/*NAV PROPERTIES*/
+nav {
+		height:768px;
+		width:124px;
+		float:right;
+		background:#aaaaaa;
+	}
+	
+/*FOOTER PROPERTIES*/
+#footer {
+		height:48px;
+		width:900px;
+		overflow:hidden;
+		background:#3e4d71;
+		position:absolute;
+		left:0;
+		bottom:0;
+	}
+	
+#footer a {
+		font-family:existence;
+		font-size:38px;
+		position:absolute;
+		top:0;
+		left:10px;
+		text-decoration:none;
+		color:black;
+		
+		}
+
+/*SCROLLINGPAGE PROPERTIES*/
+#scrollingPage {
+		height:100%;
+		width:75%;
+		background:#8b2419;
+		right:0;
+		position:absolute;
+		z-index:1;
+		}
+		
+/*RELATEDCONTENT PROPERTIES*/
+#relatedContent {
+		height:100%;
+		width:25%;
+		background:#e9d1cf;
+		-webkit-transition: .2s ease-in;
+		-moz-transition: .2s ease-in;
+   		-ms-transition: .2s ease-in;
+   		-o-transition: .2s ease-in;
+		transition: .2s ease-in;
+		position:absolute;
+		z-index:2;
+		}
+
+#relatedContent:hover {
+		height:100%;
+		width:75%;
+		background:#e9d1cf;
+		}
+		
+		
+		
+	
